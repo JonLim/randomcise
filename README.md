@@ -6,5 +6,5 @@ A proof-of-concept website, displaying a random exercise video from a vetted You
 
 <script>
     num = Math.floor((Math.random() * 3) + 1)
-    document.getElementById("random").href = `./${num}.md`;
+    document.getElementById("random").href = `./${num}.html`;
 </script>
